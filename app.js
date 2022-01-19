@@ -10,7 +10,7 @@ const buildMainContent = require("./lib/mainContent.js");
 const getMimeType = require("./lib/getMimeType");
 
 //connection settings
-const port = process.env.port || 3001;
+const port = process.env.PORT || 3001;
 
 //Project base path: location of your location folder
 const staticBasePath = path.join(__dirname, ".", "static");
